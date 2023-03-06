@@ -1,30 +1,37 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+    <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<style lang="sass">
 
-nav {
-  padding: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Syne:wght@400;700&display=swap')
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+#app
+    font-family: 'Inter', sans-serif
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    text-align: center
+    color: white
+    font-style: normal
+    font-weight: 400
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+.font-syne
+    font-family: 'Syne', sans-serif
+    font-weight: 400
+
+.font-inter
+    font-family: 'Inter', sans-serif
+    font-weight: 400
+
+.font-weight-300
+    font-weight: 300 !important
+
+
+body
+    background-image: url("assets/background.png")
+    background-size: cover
+    background-position-x: right
+    background-position-y: top
+    overflow-x: hidden
+
 </style>
