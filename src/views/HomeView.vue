@@ -10,15 +10,14 @@
           <h1 class="title font-syne">Logo, Brand and web design</h1>
           <h4 class="post-title font-inter">to learn more about me check my portfolio and cv below. </h4>
           <div class="buttons font-syne">
-              <a href="../assets/stoykova-portfolio.pdf" target="_blank">
+              <a href="/assets/stoykova-portfolio.pdf" target="_blank">
                   portfolio
               </a>
-              <a href="../assets/stoykova-cv.pdf" target="_blank">
+              <a href="/assets/stoykova-cv.pdf" target="_blank">
                   cv
               </a>
           </div>
       </section>
-
 
       <section class="get-in-touch">
           <h4 class="font-inter">Let’s get in touch!</h4>
@@ -29,7 +28,6 @@
 
       <section class="moto">
           <h3 class="font-syne">bringing your ideas to life with <br> a passionate touch</h3>
-          <h4 class="font-inter">web update coming soon!</h4>
       </section>
 
       <footer>
@@ -145,6 +143,90 @@ footer
     .value
         font-size: 1vw // 17px
 
+@media (max-width: 900px)
+
+    .main
+        margin: 0 25px
+
+    .logo img
+        margin-left: -75vw
+        margin-top: 20px
+    .intro
+        .pre-title
+            margin-top: 148px
+            font-size: 14px //23px
+        .title
+            margin-top: 32px
+            font-size: 23px
+        .post-title
+            font-size: 12px
+            margin-top: 48px
+    .get-in-touch
+        h4
+            margin-top: 48px
+            font-size: 14px
+        > div
+            margin-top: 4px
+        a
+            font-size: 24px
+            &:hover
+                text-decoration: underline
+                font-size: 2vw
+    .buttons
+        margin-top: 48px
+        a
+            font-size: 14px
+            margin: 0 1vw
+            padding: 12px 0
+            width: 100px
+    .moto
+        h3
+            font-size: 18px
+            margin-top: 64px
+        h4
+            margin-top: 12px
+            font-size: 12px
+    footer
+        margin-top: 100px
+        margin-bottom: 30px
+        .columns
+            justify-content: center
+            flex-direction: column
+            .col
+                margin: 10px 2.8vw 0
+                text-align: center
+        .key
+            font-size: 18px
+        .value
+            font-size: 14px
+
+@media (min-width: 901px) and (max-width: 1200px)
+    .intro
+        .pre-title
+            font-size: 14px
+        .title
+            font-size: 26px
+        .post-title
+            font-size: 12px
+    .get-in-touch
+        h4
+            font-size: 14px
+        > div
+            margin-top: 4px
+        a
+            font-size: 24px
+    .buttons a
+        font-size: 14px
+    .moto
+        h3
+            font-size: 24px
+        h4
+            font-size: 12px
+    footer
+        .key
+            font-size: 18px
+        .value
+            font-size: 14px
 
 </style>
 
