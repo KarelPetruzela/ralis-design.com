@@ -10,10 +10,10 @@
           <h1 class="title font-syne">Logo, Brand and web design</h1>
           <h4 class="post-title font-inter">to learn more about me check my portfolio and cv below. </h4>
           <div class="buttons font-syne">
-              <a href="/assets/stoykova-portfolio.pdf" target="_blank">
+              <a href="/assets/stoykova-portfolio.pdf?_=07062023" target="_blank">
                   portfolio
               </a>
-              <a href="/assets/stoykova-cv.pdf" target="_blank">
+              <a href="/assets/stoykova-cv.pdf?_=07062023" target="_blank">
                   cv
               </a>
           </div>
